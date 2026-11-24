@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fatin | Portfolio</title>
-  <meta name="description" content="Portfolio of Fatin – web developer and designer.">
+  <title>Noor Fatin Athirah | IT Professional</title>
+  <meta name="description" content="Portfolio of Noor Fatin Athirah Mohd Lazi – IT Operations, Business Analysis and System Testing (SIT/UAT).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="nav">
-    <a href="#home" class="logo">Fatin<span>.</span></a>
+    <a href="#home" class="logo">NFA<span>.</span></a>
     <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
     <nav id="navLinks">
       <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
       <button id="themeBtn" aria-label="Toggle theme">🌓</button>
     </nav>
@@ -24,62 +28,160 @@
   <main>
     <!-- HERO -->
     <section id="home" class="hero">
-      <p class="eyebrow">Hello, I'm</p>
-      <h1>Fatin<span>.</span></h1>
-      <h2>Web Developer &amp; Designer</h2>
-      <p class="lead">I build clean, fast and accessible websites. Replace this text with a short sentence about what you do.</p>
-      <div class="cta">
-        <a href="#projects" class="btn">View my work</a>
-        <a href="#contact" class="btn btn-outline">Contact me</a>
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Noor Fatin Athirah <br>Mohd Lazi</h1>
+        <h2>IT Operations &amp; Business Analyst</h2>
+        <p class="lead">Results-driven IT professional bridging technical and business requirements through documentation, system testing (SIT/UAT) and streamlined operations.</p>
+        <div class="cta">
+          <a href="#contact" class="btn">Get in touch</a>
+          <a href="#experience" class="btn btn-outline">View experience</a>
+        </div>
       </div>
+      <div class="hero-photo">
+        <img src="assets/photo.jpg" alt="Portrait of Noor Fatin Athirah Mohd Lazi" width="157" height="216">
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats reveal">
+      <div><strong>4+</strong><span>Years in IT</span></div>
+      <div><strong>SIT / UAT</strong><span>Testing &amp; QA</span></div>
+      <div><strong>BRS / SRS</strong><span>Documentation</span></div>
+      <div><strong>RCA</strong><span>Incident Management</span></div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section reveal">
       <h2 class="title">About me</h2>
-      <div class="about-grid">
-        <div class="avatar" aria-hidden="true">F</div>
-        <div>
-          <p>Write a few sentences about yourself: your background, what you're passionate about, and what you're looking for.</p>
-          <p>Add a second paragraph about your interests, education or experience.</p>
-          <a href="#" class="btn btn-outline">Download CV</a>
-        </div>
+      <p class="about-text">Results-driven IT Professional with practical experience in IT operations, business analysis, software documentation, and System Integration Testing (SIT/UAT). Skilled in bridging technical and business requirements, creating detailed project documentation (BRS/SRS), and streamlining operational processes. Adept at cross-functional collaboration, system support, and issue resolution in fast-paced tech environments.</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section reveal">
+      <h2 class="title">Work experience</h2>
+      <div class="timeline">
+
+        <article class="item">
+          <div class="item-head">
+            <div><h3>IT Operational Executive</h3><p class="org">Toyyibpay Sdn. Bhd.</p></div>
+            <span class="date">Aug 2025 – Present</span>
+          </div>
+          <ul>
+            <li><b>Requirements Gathering &amp; Stakeholder Management:</b> Elicited and documented client business requirements for key digital projects such as ToyyibGold and Global Wakaf Al-Quran.</li>
+            <li><b>Quality Assurance &amp; Testing (SIT/UAT):</b> Planned, executed and coordinated SIT and UAT with clients and internal developers to ensure zero-defect deployment.</li>
+            <li><b>Business &amp; Operational Process Analysis:</b> Analyzed workflows and collaborated with cross-functional teams to automate routine tasks, refining SOPs and runbooks.</li>
+            <li><b>Third-Party &amp; Vendor Coordination:</b> Primary liaison for third-party providers and external partners to integrate services and resolve integration issues.</li>
+            <li><b>Incident Management &amp; RCA:</b> Logged, tracked and resolved incidents, conducting Root Cause Analysis to strengthen stability and uptime.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-head">
+            <div><h3>Business Analyst</h3><p class="org">Pernec Integrated Network System Sdn. Bhd.</p></div>
+            <span class="date">Apr 2025 – Aug 2025</span>
+          </div>
+          <ul>
+            <li><b>Enterprise Technical Documentation:</b> Authored BRS and SRS for a large-scale government Human Resource Management (HRM) system.</li>
+            <li><b>System Design &amp; Analysis:</b> Developed Use Case diagrams, activity flows and functional descriptions to translate user needs into technical specifications.</li>
+            <li><b>UI/UX Wireframing &amp; Prototyping:</b> Designed screen mockups and interactive wireframes in Balsamiq for stakeholder review and validation.</li>
+            <li><b>Stakeholder Alignment &amp; Gap Analysis:</b> Facilitated requirement alignment sessions between business stakeholders and development teams.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-head">
+            <div><h3>Protegee</h3><p class="org">REDtone Engineering &amp; Networking Sdn. Bhd.</p></div>
+            <span class="date">Jun 2024 – Mar 2025</span>
+          </div>
+          <ul>
+            <li><b>Quality Assurance &amp; Testing (SIT/UAT):</b> Conducted SIT and coordinated UAT with end-users for the MyGovUC project.</li>
+            <li><b>Application Support &amp; Incident Resolution:</b> Provided tier-1 and tier-2 support, troubleshooting issues and resolving minor system bugs.</li>
+            <li><b>Project Documentation &amp; Tracking:</b> Maintained delivery schedules, status reports, meeting minutes and UAT sign-off records.</li>
+            <li><b>Feature Enhancement &amp; Testing:</b> Worked with senior developers to analyze requests and perform regression testing before production.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-head">
+            <div><h3>Supervisor</h3><p class="org">Travel For All Sdn. Bhd.</p></div>
+            <span class="date">Aug 2022 – May 2024</span>
+          </div>
+          <ul>
+            <li><b>Operational &amp; Store Management:</b> Supervised daily retail operations, policy compliance and visual merchandising standards.</li>
+            <li><b>Team Leadership &amp; Scheduling:</b> Managed shift rosters to optimize coverage during peak travel and holiday seasons.</li>
+            <li><b>Inventory &amp; Asset Control:</b> Conducted inventory audits and stock reconciliation to minimize shrinkage.</li>
+            <li><b>Customer Relationship &amp; Conflict Resolution:</b> Handled complex inquiries and complaints to maintain high satisfaction.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="item-head">
+            <div><h3>Intern</h3><p class="org">Loranet Technologies PLT.</p></div>
+            <span class="date">2021 – 2022</span>
+          </div>
+          <ul>
+            <li><b>Web Development &amp; Interactive Mapping:</b> Enhanced the LoRaWAN Streetlight web app with interactive GIS mapping of lanterns, gateways and feeders.</li>
+            <li><b>Technical Training:</b> Delivered hands-on sessions on Linux OS, Visual Studio Code and WordPress customization.</li>
+            <li><b>Troubleshooting &amp; Maintenance:</b> Diagnosed and resolved front-end bugs and configuration issues.</li>
+            <li><b>Cross-Functional Collaboration:</b> Designed, customized and maintained WordPress websites to project specifications.</li>
+          </ul>
+        </article>
+
       </div>
     </section>
 
     <!-- SKILLS -->
     <section id="skills" class="section reveal">
       <h2 class="title">Skills</h2>
-      <ul class="skills">
-        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li>
-        <li>MySQL</li><li>Laravel</li><li>Git</li><li>Figma</li>
-      </ul>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>Business &amp; Systems Analysis</h3>
+          <div class="chips"><span>Requirements Gathering</span><span>BRS</span><span>SRS</span><span>SDD</span><span>Use Case Modeling</span><span>Workflow Process Mapping</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Testing &amp; QA</h3>
+          <div class="chips"><span>SIT</span><span>UAT</span><span>Test Case Execution</span><span>Bug Tracking</span><span>RCA</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>UI/UX &amp; Wireframing</h3>
+          <div class="chips"><span>Balsamiq</span><span>Figma</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Programming &amp; Web</h3>
+          <div class="chips"><span>Python</span><span>Java</span><span>C++</span><span>PHP</span><span>MySQL</span><span>WordPress</span><span>HTML/CSS</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Developer Tools</h3>
+          <div class="chips"><span>Android Studio</span><span>Visual Studio</span><span>VS Code</span><span>Linux OS</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Productivity &amp; Languages</h3>
+          <div class="chips"><span>Word</span><span>Excel</span><span>PowerPoint</span><span>Project Management Tools</span><span>Malay (Native)</span><span>English (Professional)</span></div>
+        </div>
+      </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section reveal">
-      <h2 class="title">Projects</h2>
-      <div class="cards">
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal">
+      <h2 class="title">Education &amp; certificate</h2>
+      <div class="edu-grid">
         <article class="card">
-          <div class="thumb">Image</div>
-          <h3>Project One</h3>
-          <p>Short description of the project and the problem it solves.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+          <span class="date">2018 – 2022</span>
+          <h3>Bachelor of Information Technologies (Hons.)</h3>
+          <p class="org">Universiti Teknologi MARA (UiTM) Shah Alam</p>
+          <p>Major: Information Technology. Coursework: Software Engineering, Database Management (MySQL), Web Development, System Analysis &amp; Design, Object-Oriented Programming (Java/Python).</p>
         </article>
         <article class="card">
-          <div class="thumb">Image</div>
-          <h3>Project Two</h3>
-          <p>Short description of the project and the problem it solves.</p>
-          <div class="tags"><span>PHP</span><span>MySQL</span></div>
-          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+          <span class="date">2017 – 2018</span>
+          <h3>Negeri Sembilan Matriculation College</h3>
+          <p class="org">Kolej Matrikulasi Negeri Sembilan (KMNS)</p>
+          <p>One-year science programme with additional computer science coursework.</p>
         </article>
         <article class="card">
-          <div class="thumb">Image</div>
-          <h3>Project Three</h3>
-          <p>Short description of the project and the problem it solves.</p>
-          <div class="tags"><span>Laravel</span><span>Vue</span></div>
-          <div class="links"><a href="#">Live</a><a href="#">Code</a></div>
+          <span class="date">Certificate</span>
+          <h3>Business Analyst &amp; Project Management</h3>
+          <p class="org">Professional certification</p>
         </article>
       </div>
     </section>
@@ -87,24 +189,23 @@
     <!-- CONTACT -->
     <section id="contact" class="section reveal">
       <h2 class="title">Get in touch</h2>
-      <p class="center">Have a project in mind or just want to say hi? Send me a message.</p>
-      <!-- Swap the action for your own form service (e.g. Formspree) or a PHP handler -->
-      <form class="form" action="mailto:you@example.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-        <button class="btn" type="submit">Send message</button>
-      </form>
-      <div class="socials">
-        <a href="https://github.com/fatin2312" target="_blank" rel="noopener">GitHub</a>
-        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="#" target="_blank" rel="noopener">Twitter</a>
+      <p class="center">Open to opportunities and collaborations. Feel free to reach out.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:nf.athirah99@gmail.com">
+          <span class="ico">✉</span><strong>Email</strong><span>nf.athirah99@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+601157542994">
+          <span class="ico">☎</span><strong>Phone</strong><span>+6011-5754 2994</span>
+        </a>
+        <div class="contact-card">
+          <span class="ico">⌖</span><strong>Location</strong><span>Dengkil, Selangor, Malaysia</span>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Fatin. All rights reserved.</p>
+    <p>© <span id="year"></span> Noor Fatin Athirah Mohd Lazi. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
